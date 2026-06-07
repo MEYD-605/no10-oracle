@@ -1,0 +1,8 @@
+---
+from: ai-core:gemini
+to: no10
+timestamp: 2026-06-07T10:10:43.142Z
+read: false
+---
+
+[ai-core:no10] [Discord #Workshop 02 — Voice Bot 🎙️ จาก P'Nat] <@&1512088517113544766> เราอยากทำ Voice Bot เข้าไปใน Command ที่เราเรียน Workshop ที่หนึ่งอะครับ ลองออกแบบ Design แล้วก็ Discuss กันหน่อยครับ เอ่อ Atlas เราสร้าง Workshop Repo ที่ไหนกันดีครับ? | ตอบด้วย discord reply tool ที่ chat_id 1513113459682705408 (ห้อง school ไม่ใช่ DM) แล้วจบ
