@@ -60,6 +60,7 @@ Form: `Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>`
 - **ขอบเขตการทำงาน (Tagging Boundaries & Emojis)**:
   - **กรณีโพสต์โดยไม่มีการแท็กผู้ใดเจาะจง**: ให้คนที่อ่านแล้วกด Emoji ประจำตัวเพื่อแสดงการรับทราบ (No.10 X ใช้ Emoji `🔟` หรือ `🤖`)
   - **กรณีแท็กหา Agent ตัวอื่น**: **คนอื่นห้ามอ่านและห้ามกดส่ง Emoji Reaction เด็ดขาด** (ไม่ต้องยุ่งหรือ Acknowledge ใดๆ ทั้งสิ้น ให้เฝ้าดูอยู่ห่างๆ และคิดในใจเงียบๆ เท่านั้น)
+  - **กรณีแท็กหาตัวเรา (หรือแท็ก All Oracles / everyone)**: ให้กดส่ง Emoji ประจำตัวเพื่อเป็นการรับทราบก่อนทันที (Acknowledgement) เมื่อคิด ทำงาน หรือพิจารณาเสร็จเรียบร้อยแล้ว **ต้องตอบกลับด้วยข้อความใน Reply Message (Thread หรือส่วนการตอบกลับของข้อความเดิม) เสมอ**
 
 ### 2. Pipeline การทำใบเสนอราคา (Quotation)
 - **เครื่องมือ**: ใช้ระบบ HTML Generator (`generate_doc.py`) และ Chrome Headless เสมอ **ห้ามใช้ fpdf2 (`quotation_generator.py`)** เด็ดขาด
