@@ -28,6 +28,33 @@ No.10 operates several active daemons configured via `systemd` to keep its prese
 
 ---
 
+## 💬 How to Connect to Discord
+
+### Option A: Managing via systemd (Daemon Mode - Recommended)
+To start, enable, or restart the services so that they run persistently in the background:
+
+```bash
+# Reload systemd configuration if changes are made
+sudo systemctl daemon-reload
+
+# Start and enable the services on system boot
+sudo systemctl enable --now no10-discord-relay.service
+sudo systemctl enable --now no10-presence-keeper.service
+
+# Check execution status
+sudo systemctl status no10-discord-relay.service
+sudo systemctl status no10-presence-keeper.service
+```
+
+### Option B: Running Manually
+To run the Discord inbound relay directly in your terminal for debugging:
+
+```bash
+bun run /root/maw-workspace/scripts/discord-relay-ws.ts --agent no10 --state-dir /root/.claude/channels/discord-no10
+```
+
+---
+
 ## 🎙️ Voice Bot Launcher
 No.10 has a dedicated voice bot designed with MIME TTS integration for voice channel interaction.
 
