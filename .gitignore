@@ -1,0 +1,27 @@
+.env
+
+# Local runtime/config state
+.claude/settings.local.json
+.claude/settings.local.json.*
+*.bak.*
+
+# Soul - ephemeral/personal
+ψ/active/*
+!ψ/active/.gitkeep
+ψ/incubate/*
+!ψ/incubate/.gitkeep
+ψ/learn/*
+!ψ/learn/.gitkeep
+ψ/memory/logs/*
+!ψ/memory/logs/.gitkeep
+
+# Obsidian - personal workspace (inside ψ/)
+ψ/.obsidian/workspace.json
+ψ/.obsidian/workspace-mobile.json
+ψ/.obsidian/plugins/*/data.json
+
+# Ephemeral inbox messages
+ψ/inbox/*
+!ψ/inbox/handoff/
+ψ/inbox/2026-06-11_02-55_ai-core-no10_ai-core-no10-discord-phd-oracle-p-nat-1512088517.md
+ψ/inbox/2026-06-14_13-03_ai-core-no10_ai-core-no10-discord-free-for-all-p-nat.md
