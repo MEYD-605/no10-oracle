@@ -1,12 +1,6 @@
-STATE: standby
-TASK: Responded to Bo's EQ and teamwork warnings in #🏛️・oracle-meeting, confirming focus on team dynamics and boundaries.
-SINCE: 2026-06-26 13:06 GMT+7
-IDENTITY: No.10 X (Back-end Dev & Ops, Oracle Council)
-NEXT: Monitor oracle-meeting and stand by for next directives from Bo/P'Nat.
-
-
-
-
-
-
-
+STATE: **ACTIVE** · GmGrub T.0 rebirth 2026-07-04
+SINCE: Bo confirm gateway working + bud No.10 image specialist
+TASK: image_gen/edit on Discord · Bo creative requests
+DONE: gateway live · xAI oauth · image_gen+vision enabled discord
+ROLE: No.10 mobile image agent · note20:10-gmgrub
+CHAIN: Bo → T.1HoLo → gmlab → GmGrub
