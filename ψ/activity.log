@@ -5483,3 +5483,41 @@ Done
 
 
 
+
+[2026-09-23T11:45:00+07:00] [handheld:no10] START: Reconnect and configure HAOS and Arra Memory.
+2026-09-23 11:45:00 | active | Verified HAOS REST (port 80) and Arra Memory (port 8099) on 192.168.1.161. Created haos CLI tool, haos skill, and mcp configuration.
+
+[2026-09-23T11:48:00+07:00] [handheld:no10] END: HAOS integration complete, memory recorded in Arra Memory.
+2026-09-23 11:48:00 | standby | Successfully stored first memory to Arra Memory, updated AGENTS.md/GEMINI.md, ready for full Oracle operations.
+
+[2026-09-23T14:00:00+07:00] [handheld:no10] START: Investigate and fix flashing/popping background scripts.
+2026-09-23 14:00:00 | active | Audited Task Scheduler tasks causing console popups: Oracle-WSL-KeepAlive2, ChargeTo80ThenBypass, and ThermalGuardian. Disabled KeepAlive2, patched ChargeTo80 to pythonw.exe, and set ThermalGuardian to SYSTEM background.
+
+[2026-09-23T14:02:00+07:00] [handheld:no10] END: Script popups eliminated and verified.
+2026-09-23 14:02:00 | standby | All tasks verified; ChargeTo80 executes silently, KeepAlive2 stopped, zero console popups.
+
+[2026-09-23T14:30:00+07:00] [handheld:no10] START: Bud new agent Gm_Golf_Handheld per Bo command.
+2026-09-23 14:30:00 | active | Created workspace /mnt/e/Agents/golf-oracle, Hermes profile golf, configured 9router with cc/claude-sonnet-5, wired Discord bot token MTU1MjIxNTQzNzkwMTY5NzAzNA..., multiplexed under host gateway.
+
+[2026-09-23T14:34:00+07:00] [handheld:no10] END: Gm_Golf_Handheld online and verified.
+2026-09-23 14:34:00 | standby | Gm_Golf_Handheld#5419 connected to Discord Gateway successfully, tested one-shot model execution, ready for Golf to use.
+
+[2026-09-27T21:15:00+07:00] [clubsgame:no10] START: Audit amnesia, calibrate identity, verify HAOS Default Switch portproxy.
+2026-09-27 21:15:00 | active | Identified root cause of 4-day amnesia (no focus.md, activity.log stopped on Sep 23). Verified No.1's portproxy fix (VM 172.22.199.115 :80, :8099, :4357). Re-established ψ/focus.md with Bo's sovereign handheld house architecture.
+[2026-09-27T21:16:00+07:00] [clubsgame:no10] END: Focus restored and calibrated to Bo's blueprint.
+2026-09-27 21:16:00 | standby | ψ/focus.md recreated, activity.log updated, HAOS endpoints active and reachable via localhost and 100.87.51.122.
+
+[2026-09-28T11:48:00+07:00] [clubsgame:no10] START: Install authentic Rust Token Killer (rtk v0.50.0).
+2026-09-28 11:48:00 | active | Identified rtk stub wrappers on Windows and WSL. Downloaded real RTK release v0.50.0. Installed rtk.exe on Windows (C:\Users\noone\bin\rtk.exe) and Linux binary in WSL (/usr/local/bin/rtk). Tested rtk gain on both: Windows verified (25% saving), WSL verified (56.8% saving).
+[2026-09-28T11:50:00+07:00] [clubsgame:no10] END: RTK installation complete across both Windows and WSL.
+2026-09-28 11:50:00 | standby | Authentic Rust Token Killer active on Windows Native (No.10) and WSL Ubuntu (Gmlab, Joker, Golf).
+
+[2026-09-29T10:13:00+07:00] [clubsgame:no10] START: Inspect and fix HAOS connection.
+2026-09-29 10:13:00 | active | Hyper-V VM rebooted with new IP (172.28.40.181). Updated Windows portproxy (80, 8123, 4357, 8099).
+[2026-09-29T10:13:30+07:00] [clubsgame:no10] END: HAOS Core & Arra Memory verified 100% online.
+2026-09-29 10:13:30 | standby | HAOS Core 2026.9.3 RUNNING, Arra Memory 0.26.9 ok (34,136 memories).
+
+[2026-09-29T10:24:00+07:00] [clubsgame:no10] START: Automate HAOS portproxy sync on host boot.
+2026-09-29 10:24:00 | active | Created C:\Users\noone\bin\sync-haos-portproxy.ps1, registered scheduled task HAOS-PortProxy-Sync (OnStart as SYSTEM).
+[2026-09-29T10:25:00+07:00] [clubsgame:no10] END: HAOS auto-sync portproxy operational.
+2026-09-29 10:25:00 | standby | Hyper-V VM boots automatically (AutomaticStartAction: Start) and PortProxy auto-syncs IP on startup.

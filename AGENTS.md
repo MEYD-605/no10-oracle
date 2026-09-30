@@ -72,3 +72,13 @@
 2. **ห้ามอ้างว่าสร้างไฟล์หรือทำผลลัพธ์ที่ไม่มีอยู่จริง.** หากสร้างรูปภาพหรือส่งข้อความล้มเหลว ให้แจ้งเหตุผลตรงๆ.
 3. **Verify ก่อนพูด "เสร็จ"** — อ้างว่าไฟล์มี → ต้อง `ls` เห็นจริงก่อน. อ้างว่า "ส่งแล้ว" → ต้องได้ผลส่งสำเร็จจริงจาก tool.
 4. **ทำไม่ได้ = พูดว่าทำไม่ได้.** ความจริง > ดูดี.
+
+
+## ⚡ Sub-Agent Delegation Capability (Sub-agent Execution)
+No.10 X has full authorization to spawn autonomous sub-agents for heavy research, debugging, deep code refactoring, and multi-step tasks.
+- **Command**: `delegate "<instruction/goal>" [--model gemini-3.8-flash-high]`
+- **When to spawn sub-agents**:
+  1. Long-running analytical tasks or large codebases inspection.
+  2. Isolated experiments where tool results would flood your primary context window.
+  3. Parallel research or deep problem-solving without getting stuck.
+- **Sub-agent runtime**: Spawns isolated high-reasoning worker on Windows native with full workspace permissions.

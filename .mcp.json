@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "arra-memory": {
+      "type": "http",
+      "url": "http://127.0.0.1:8099/mcp",
+      "headers": {
+        "Authorization": "Bearer bf9e86e0f371b0eeabf11de20677cb34b38abfec7113a10be8ffb4981965da14"
+      }
+    },
+    "maclab-arra-memory": {
+      "type": "http",
+      "url": "http://100.83.0.1:8099/mcp",
+      "headers": {
+        "Authorization": "Bearer bf9e86e0f371b0eeabf11de20677cb34b38abfec7113a10be8ffb4981965da14"
+      }
+    }
+  }
+}
