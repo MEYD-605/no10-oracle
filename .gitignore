@@ -1,9 +1,7 @@
 .env
-
-# Local runtime/config state
-.claude/settings.local.json
-.claude/settings.local.json.*
-*.bak.*
+.env.*
+*.bak*
+*.bak-*
 
 # Soul - ephemeral/personal
 ψ/active/*
