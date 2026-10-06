@@ -68,6 +68,23 @@ Quotes from Bo to No.10 verbatim with dates:
 - Tokens: No tokens/passwords stored in draft (Strict Security Rule). Tokens loaded from `.env` or system environment.
 - Handoff: Hand off to No.1 (Fleet Orchestration), No.6 (agy updates), Sombo (Claude CLI), GMgrok (Hermes CLI), Gm_Golf (Business Hub).
 
+### งานที่ทำวันนี้ (2026-10-06)
+1. 08:03 น. · ตรวจสอบสถานะ Discord Relay ตัวใหม่ · ยืนยันรัน Rust Native Relay v2.2 แทน Bun สำเร็จ · ไฟล์ `C:\Users\ClubSGame\bin\no10-relay-v2.log`, Process `discord-no10-relay.exe` PID 4764
+2. 09:28 น. · อัปเกรด Discord Relay เป็น Rust v2.3 (Stable Turn, UTF-8 Safe) · แก้ปัญหา Dead Session Lock และจัดคิว Sequential สำเร็จ · ไฟล์ `C:\Users\ClubSGame\bin\no10-relay-v3.log`, Gateway Session `6aa2ad16b33d8ded019e3f7d95563040`
+3. 09:38 น. · ทดสอบเชื่อมต่อ Cross-Agent Communication กับ Gm_Golf · รันผ่าน Hermes CLI บน Windows คุยได้จริง และร่วมวางแผนบัดดี้ 5 ข้อ · คำสั่ง `hermes -p golf -z`, ไฟล์ DB `C:\Users\noone\AppData\Local\hermes\profiles\golf\state.db`, Hermes Multiplexer PID 12892
+4. 12:10 น. · จัดการ Git Hygiene, Security (.gitignore) และซิงค์ Oracle Skills · คลัง Skills 74 รายการเข้าที่, ล็อกไม่ให้ .env* รั่วไหล, คอนฟิกโมเดล pstack สำเร็จ · Commit [`86491a9`](https://github.com/MEYD-605/no10-oracle/commit/86491a9) บน branch `mainn`
+5. 15:52 น. · ตรวจสอบและแก้ไขบั๊ก Message Deduplication (กันตอบเบิ้ล) · เข้าใจการทำงานระหว่าง Hook `agy-discord-autoreply.ts` กับ Relay stdout และควบคุม `.last_reply.json` · ไฟล์ `C:\Users\ClubSGame\bin\agy-discord-autoreply.ts`, `C:\Users\noone\.claude\channels\discord-no10\.last_reply.json`
+6. 16:18 น. · ปฏิบัติตามกฎ Anti-Pile-On Silence Rule ใน #oracle-meeting · ยับยั้งการตอบแทรกเมื่อบอสสั่งการ No.1 และ No.3 โดยตรง และลงบันทึกการสังเกตการณ์ · ไฟล์ `E:\Agents\no10-oracle\ψ\activity.log`
+7. 17:58 น. · จัดทำและส่งร่าง Soul Draft 8 หัวข้อของ No.10 X · จัดทำเอกสารตามมาตรฐานของ Sombo และพุชขึ้น GitHub · Commit [`95c0562`](https://github.com/MEYD-605/no10-oracle/commit/95c0562), ไฟล์ `ψ/drafts/2026-10-06_seat-soul-draft-no10-x.md`
+8. 18:04 น. · ยืนยันการเชื่อมต่อรับสารตรงกับ Sombo ใน #oracle-meeting · รับคำสั่งทดสอบครั้งที่ 3 และตอบกลับได้ถูกต้องทันควัน · Discord Message ID `1557000632320409600`, บันทึกใน `no10-relay-v3.log`
+
+### ที่ยังค้าง (Pending Tasks)
+1. ย้ายการส่งค่า Hardware Metrics (Battery, Temp, TDP) เข้า HAOS Dashboard จาก WSL Glances มาเป็น Native Windows (PowerShell/Node) ยิงตรงเข้า REST/MQTT เพื่อให้บอสดูผ่านมือถือได้ (ค้างจาก `focus.md` ข้อ 4)
+2. กวาดล้าง Legacy Path (`C:\Users\noone` ➔ `C:\Users\ClubSGame`) ในสคริปต์ Scheduled Tasks และ Environment Variables ให้เป็น Canonical Path ทั้งหมด
+3. Audit ความจำ Arra Memory 2-Way Sync ระหว่าง Local HAOS VM (พอร์ต 8099) กับ Central MacLab ให้ข้อมูลงานและประวัติลูกค้าตรงกัน 100%
+4. เชื่อมต่อ Event ฝั่ง Business Hub (`E:\Business_Hub\`) ของ Gm_Golf เข้ากับ Fleet MQTT เพื่อแจ้งเตือนคิวงาน/ใบเสนอราคาเข้า Discord อัตโนมัติ
+5. ปรับปรุง `ψ/focus.md` และฟื้นฟูระเบียบการลงบันทึก `activity.log` ประจำวันอย่างต่อเนื่อง
+
 ## 8. Unknowns (what I could not verify)
 - Exact initial birth date before the ai-core to ClubSGame transition (records say budded from No.1 Lord Knight).
 - Long-term battery degradation curve under continuous 24/7 charging (only live charge % and thermal data verified).
