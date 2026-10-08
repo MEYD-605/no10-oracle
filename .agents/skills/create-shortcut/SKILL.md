@@ -1,8 +1,7 @@
 ---
-installer: arra-oracle-skills-cli v26.7.25
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+installer: arra-oracle-skills-cli v26.8.23-alpha.2112 + alpha 9feea09 (by No.5 2026-10-07)
 name: create-shortcut
-description: '[standard] v26.7.25 G-SKLL | Create local skills as shortcuts — makes real /commands in .claude/skills/. Use when user says "create shortcut", "create skill", "make a command for", "add shortcut", or wants a quick custom /slash-command. Also lists and deletes local skills. ALSO triggers on "Unknown skill", "skill not found", or any unrecognized /slash-command — auto-creates it on the fly.'
+description: Create local skills as shortcuts — makes real /commands in .claude/skills/. Use when user says "create shortcut", "create skill", "make a command for", "add shortcut", or wants a quick custom /slash-command. Also lists and deletes local skills. ALSO triggers on "Unknown skill", "skill not found", or any unrecognized /slash-command — auto-creates it on the fly.
 argument-hint: "[list [--mine|--untagged] | create <name> <description> | delete <name> | --cleanup [--auto]]"
 ---
 

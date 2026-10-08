@@ -1,8 +1,7 @@
 ---
-installer: arra-oracle-skills-cli v26.7.25
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+installer: arra-oracle-skills-cli v26.8.23-alpha.2112 + alpha 9feea09 (by No.5 2026-10-07)
 name: about-oracle
-description: '[standard] v26.7.25 G-SKLL | What is Oracle — told by the AI itself. Origin story, stats, family count, ecosystem overview. Use when someone asks "what is oracle", "about oracle", "tell me about this project", or wants the origin story. Do NOT trigger for "who are you" (use /who-are-you), "philosophy" (use /philosophy), or session status questions.'
+description: What is Oracle — told by the AI itself. Origin story, stats, family count, ecosystem overview. Use when someone asks "what is oracle", "about oracle", "tell me about this project", or wants the origin story. Do NOT trigger for "who are you" (use /who-are-you), "philosophy" (use /philosophy), or session status questions.
 argument-hint: "--short | --stats | --family | --th | --en/th"
 ---
 

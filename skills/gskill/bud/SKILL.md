@@ -1,8 +1,7 @@
 ---
-installer: arra-oracle-skills-cli v26.7.25
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+installer: arra-oracle-skills-cli v26.8.23-alpha.2112 + alpha 9feea09 (by No.5 2026-10-07)
 name: bud
-description: '[standard] v26.7.25 G-SKLL | Create a new oracle via maw bud — yeast-colony reproduction. Use when user says "bud", "new oracle", "create oracle", "spawn oracle", or wants to create a new permanent oracle from the current one.'
+description: 'Create a new oracle via maw bud — yeast-colony reproduction. Use when user says "bud", "new oracle", "create oracle", "spawn oracle", or wants to create a new permanent oracle from the current one.'
 argument-hint: "<name> [--from <parent>] [--split] [--birth] [--org <org>] [--note <text>] [--dry-run]"
 ---
 

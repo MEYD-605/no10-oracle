@@ -1,8 +1,7 @@
 ---
-installer: arra-oracle-skills-cli v26.7.25
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+installer: arra-oracle-skills-cli v26.8.23-alpha.2112 + alpha 9feea09 (by No.5 2026-10-07)
 name: project
-description: '[core] v26.7.25 G-SKLL | Clone and track external repos. Use when user shares a GitHub URL to study or develop, or says "search repos", "find repo", "where is [project]". For active development, use /incubate.'
+description: Clone and track external repos. Use when user shares a GitHub URL to study or develop, or says "search repos", "find repo", "where is [project]". For active development, use /incubate.
 argument-hint: "<github-url> | search <query>"
 ---
 

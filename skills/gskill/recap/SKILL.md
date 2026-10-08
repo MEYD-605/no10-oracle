@@ -1,8 +1,7 @@
 ---
-installer: arra-oracle-skills-cli v26.7.25
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+installer: arra-oracle-skills-cli v26.8.23-alpha.2112 + alpha 9feea09 (by No.5 2026-10-07)
 name: recap
-description: '[standard] v26.7.25 G-SKLL | Session orientation and awareness — retro summaries, handoffs, git state, focus. Use when starting a session, after /jump, lost your place, switching context, or when user asks "now", "where are we", "what are we doing", "status", "recap". Do NOT trigger for "standup" or "morning check" (use /standup), or session mining "dig", "past sessions" (use /dig).'
+description: Session orientation and awareness — retro summaries, handoffs, git state, focus. Use when starting a session, after /jump, lost your place, switching context, or when user asks "now", "where are we", "what are we doing", "status", "recap". Do NOT trigger for "standup" or "morning check" (use /standup), or session mining "dig", "past sessions" (use /dig).
 argument-hint: "[--now | --deep]"
 trigger: /recap
 ---
@@ -60,6 +59,28 @@ Check what's appropriate from git status:
 - **Clean on main?** → just show last commit, move on
 
 Only read what matters — don't dump 10 commits if status is clean.
+
+### Step 2.5: Skill shelf staleness
+
+Skills are **copied** into `~/.claude/skills/` (fork model), so fixes never
+propagate on their own — an oracle can run a superseded skill indefinitely with
+nothing to signal it. This surfaces it during orientation, where you'd notice.
+
+```bash
+bun "$(dirname "$0")/skills-staleness.ts" 2>/dev/null || true
+```
+
+Silent when the shelf is current. Prints only when you are behind, the install is
+30+ days old, the manifest can't be reconciled against disk, or `--verbose`.
+Never blocks — any failure exits 0 and prints nothing, because orientation must
+not break on a diagnostic.
+
+If it reports **BEHIND**, offer the update command it prints; don't run it
+unprompted — an install can change the behaviour of skills mid-session.
+
+> Origin: written by neo (`laris-co/neo-oracle`) 2026-08-16 after a `/learn`
+> contamination bug was diagnosed in a shelf version that had been superseded
+> for two months. Adopted into the shelf so every oracle gets it.
 
 ### Step 3: Read latest ψ/ brain files
 

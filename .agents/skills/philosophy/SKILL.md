@@ -1,8 +1,7 @@
 ---
-installer: arra-oracle-skills-cli v26.7.25
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+installer: arra-oracle-skills-cli v26.8.23-alpha.2112 + alpha 9feea09 (by No.5 2026-10-07)
 name: philosophy
-description: '[core] v26.7.25 G-SKLL | Display Oracle philosophy — the 5 Principles + Rule 6. Use when user asks about principles, "nothing deleted", "patterns over intentions", Oracle philosophy, or needs alignment check. Do NOT trigger for "who are you" (use /who-are-you), "what is oracle" (use /about-oracle), or session status questions.'
+description: Display Oracle philosophy — the 5 Principles + Rule 6. Use when user asks about principles, "nothing deleted", "patterns over intentions", Oracle philosophy, or needs alignment check. Do NOT trigger for "who are you" (use /who-are-you), "what is oracle" (use /about-oracle), or session status questions.
 ---
 
 # /philosophy - Oracle Principles

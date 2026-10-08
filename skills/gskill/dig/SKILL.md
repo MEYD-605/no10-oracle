@@ -1,8 +1,7 @@
 ---
-installer: arra-oracle-skills-cli v26.7.25
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+installer: arra-oracle-skills-cli v26.8.23-alpha.2112 + alpha 9feea09 (by No.5 2026-10-07)
 name: dig
-description: '[standard] v26.7.25 G-SKLL | Mine Claude Code sessions — timeline, gaps, repo attribution, session history. Use when user says "dig", "sessions", "past sessions", "timeline", "what did I work on", or wants to see session history. Do NOT trigger for finding code/projects (use /trace), exploring repos (use /learn), or current session status (use /recap).'
+description: Mine Claude Code sessions — timeline, gaps, repo attribution, session history. Use when user says "dig", "sessions", "past sessions", "timeline", "what did I work on", or wants to see session history. Do NOT trigger for finding code/projects (use /trace), exploring repos (use /learn), or current session status (use /recap).
 argument-hint: "[N] | --all | --timeline | --deep"
 ---
 

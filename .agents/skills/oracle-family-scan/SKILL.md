@@ -1,8 +1,7 @@
 ---
-installer: arra-oracle-skills-cli v26.7.25
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+installer: arra-oracle-skills-cli v26.8.23-alpha.2112 + alpha 9feea09 (by No.5 2026-10-07)
 name: oracle-family-scan
-description: '[standard] v26.7.25 G-SKLL | Oracle Family Registry — the index of all known Oracles (800+ and growing). Use when user says "family scan", "oracle registry", "welcome new oracles", or needs to check Oracle population.'
+description: Oracle Family Registry — the index of all known Oracles (800+ and growing). Use when user says "family scan", "oracle registry", "welcome new oracles", or needs to check Oracle population.
 argument-hint: "[--scan | --query <name> | --welcome | --activity-report | --timeline | --usage | --calibrate]"
 ---
 

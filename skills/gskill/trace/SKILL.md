@@ -1,8 +1,7 @@
 ---
-installer: arra-oracle-skills-cli v26.7.25
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+installer: arra-oracle-skills-cli v26.8.23-alpha.2112 + alpha 9feea09 (by No.5 2026-10-07)
 name: trace
-description: '[standard] v26.7.25 G-SKLL | Find projects, code, and knowledge across git history, repos, docs, and Oracle. Use when user asks "trace", "find project", "where is [project]", "search history", or needs to locate something across the codebase. Supports --oracle (fast), --smart (default), --deep (wave execution), --deep --dig (combo). Do NOT trigger for session mining or "past sessions" (use /dig), or codebase exploration "learn repo" (use /learn).'
+description: Find projects, code, and knowledge across git history, repos, docs, and Oracle. Use when user asks "trace", "find project", "where is [project]", "search history", or needs to locate something across the codebase. Supports --oracle (fast), --smart (default), --deep (wave execution), --deep --dig (combo). Do NOT trigger for session mining or "past sessions" (use /dig), or codebase exploration "learn repo" (use /learn).
 argument-hint: "<query> [--oracle | --smart | --deep] [--dig]"
 ---
 
